@@ -1,0 +1,26 @@
+{
+  "name": "lite_stack2-fe",
+  "version": "1.0.0",
+  "description": "frontend for the lite_stack2 app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G-rizz/lite_stack2-FE.git"
+  },
+  "keywords": [
+    "Front",
+    "end",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Conrad P B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/G-rizz/lite_stack2-FE/issues"
+  },
+  "homepage": "https://github.com/G-rizz/lite_stack2-FE#readme"
+}
