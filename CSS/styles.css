@@ -7,6 +7,18 @@ body {
     padding: 0;
 }
 
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    opacity: 0.8;
+    font-style: italic;
+    text-shadow: 1px 1px #ccc;
+}
+
 .container {
     margin: 0 auto;
     max-width: 600px;
