@@ -12,7 +12,11 @@ body {
   }
   
   h1 {
-    margin-top: 0;
+    margin: 5px 0 40px 0;
+    text-align: center;
+    color: #4CAF50;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4CAF50, 0 0 40px #4CAF50, 0 0 50px #4CAF50, 0 0 75px #4CAF50;
   }
   
   a {
@@ -26,7 +30,7 @@ body {
   
   /* Login and registration pages */
   .logo {
-    font-size: 24px;
+    font-size: 17px;
     font-weight: bold;
     margin-bottom: 20px;
     text-shadow: 1px 1px 2px #aaa;
@@ -34,8 +38,10 @@ body {
     top: 0;
     left: 0;
     color: #ff0000; /* red */
+    font-style: italic;
+    border: 2px solid #ff0000;
   }
-  
+
   form {
     background-color: #fff;
     border-radius: 5px;
