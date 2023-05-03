@@ -9,9 +9,6 @@ postQuestionForm.addEventListener("submit", event => {
   const questionTitle = document.querySelector("#question-title").value;
   const questionText = document.querySelector("#question-text").value;
 
-  // Add question to data
-  // Note: You will need to implement a way to store and retrieve data
-  // This is just an example
   const newQuestion = {
     id: Date.now(),
     title: questionTitle,
