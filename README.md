@@ -4,6 +4,7 @@ liteStack2
 liteStack2 is a web application that allows users to ask and answer questions.
 
 Features:
+
 Users can create an account by registering with a username, email and password.
 Users can log in to their account using their username or email and password.
 Once logged in, users can view recently asked questions, post a new question or view their profile.
