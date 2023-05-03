@@ -40,7 +40,9 @@ body {
     color: #ff0000; /* red */
     font-style: italic;
     border: 2px solid #ff0000;
-  }
+    border-radius: 50%; /* make the border oval-shaped */
+    opacity: 0.75; /* add transparency */
+}
 
   form {
     background-color: #fff;
@@ -81,4 +83,10 @@ body {
   .error{
       color:#dc3545; 
       margin-bottom:10px; 
+  }
+
+  @media screen and (max-width: 600px) {
+    .container {
+      max-width: 100%;
+    }
   }
