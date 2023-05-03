@@ -8,7 +8,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
       document.getElementById('username-error').textContent = 'Please enter a username or email address';
       return;
   }
-  document.getElementById('email-error').textContent = '';
+  document.getElementById('username-error').textContent = '';
 
   if (password.trim() === '') {
       document.getElementById('password-error').textContent = 'Please enter a password';
